@@ -9,7 +9,7 @@ function App() {
  
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DogAPI-webpage">
       <Routes>
        <Route path="/" element={<MainLayout />}>
        <Route index element={<Main />} />
