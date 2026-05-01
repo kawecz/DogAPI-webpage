@@ -1,0 +1,46 @@
+body {
+    margin-top: 2em;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content {
+    flex: 1; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 2em;
+}
+
+main h1 {
+    margin-bottom: 1em;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 1.2em;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        margin-top: 1em;
+    }
+
+    section {
+        width: 90%;
+        margin-top: 2em;
+    }
+    
+}
